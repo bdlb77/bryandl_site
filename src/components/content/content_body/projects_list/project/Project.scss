@@ -1,0 +1,15 @@
+
+#project-item {
+	margin: 15px;
+	width: 300px !important;
+	transition-timing-function: cubic-bezier(.44,.83,.09,.81);
+	transition-duration: 0.5s;
+	&:hover{
+		transform: translateY(-10px);
+	}
+}
+
+.media-card {
+	width: 100%;
+	background-size: cover;
+}
