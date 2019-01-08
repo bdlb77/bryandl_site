@@ -30,7 +30,7 @@ function ButtonAppBar(props) {
           height="70"
           width="70"
           src={process.env.PUBLIC_URL + '/bryan_logo.png'}/>
-          <Button color="inherit" className={classes.buttons}>Contact</Button>
+        <Button color="inherit" className={classes.buttons} href="mailto:contact@bryandl.com" target="_blank">Contact</Button>
         </Toolbar>
       </AppBar>
     </div>
