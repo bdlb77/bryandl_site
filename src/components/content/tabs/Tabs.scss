@@ -1,7 +1,12 @@
 .tabs-wrapper{
 	display: flex;
-	width:  50%;
+	width:  75%;
 	justify-content: space-around;
 	margin: 0 auto;
 	color: #fff;
+}
+@media screen  and (max-width: 760px) {
+		.tabs-wrapper {
+			width: 100%;
+		}
 }
