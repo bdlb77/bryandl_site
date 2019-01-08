@@ -19,7 +19,7 @@ class RubyOnRails extends Component {
         circle.path.setAttribute('stroke', state.color);
       }
     });
-    bar.animate(1.0); 
+    bar.animate(1.0);
   }
   render() {
     return (
