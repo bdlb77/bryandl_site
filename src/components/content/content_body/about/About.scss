@@ -2,6 +2,7 @@
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 	width: 630px;
 	height: 350px;
 	position: relative;
@@ -48,4 +49,19 @@
 
 	}
 }
-	
+@media screen and (max-width: 750px){
+	.about-img, .about-right{
+		position: relative;
+
+	}
+	.about-wrapper{
+		margin: 0 auto;
+		width: auto;
+	}
+	.about-right{
+		height: auto;
+		padding: 1.2em;
+		text-align: center;
+	}
+
+}

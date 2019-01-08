@@ -6,7 +6,7 @@ const Tabs = (props) => {
 	return (
 		<div className="tabs-wrapper">
 			{props.tabs.map(tab => {
-					return <Tab setActive={props.setActive} name={tab} active={props.active} key={tab} /> 
+					return <Tab setActive={props.setActive} name={tab} active={props.active} key={tab} />
 			})}
 		</div>
 	);
