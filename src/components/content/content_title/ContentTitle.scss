@@ -1,3 +1,4 @@
 .content-container{
-	height: calc(100vh - 64px) !important;
+	min-height: calc(100vh - 64px) !important;
+	padding: 4em 0;
 }
