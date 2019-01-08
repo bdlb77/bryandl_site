@@ -5,6 +5,7 @@
 	width: 630px;
 	height: 350px;
 	position: relative;
+	flex-wrap: wrap;
 }
 
 .about-img{
@@ -48,4 +49,16 @@
 
 	}
 }
-	
+
+@media screen and (max-width: 740px){
+	.about-wrapper{
+		width: auto;
+	}
+	.about-right, .about-img{
+		position: relative
+	}
+	.about-right{
+		height: auto;
+		padding: 1.2rem;
+	}
+}
