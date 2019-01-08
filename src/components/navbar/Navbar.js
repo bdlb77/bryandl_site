@@ -5,7 +5,6 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
-
 const styles = {
   root: {
     flexGrow: 1,
@@ -27,9 +26,10 @@ function ButtonAppBar(props) {
     <div className={classes.root}>
       <AppBar position="static">
         <Toolbar>
-          <Typography variant="h6" color="inherit" className={classes.name}>
-            Bryan
-          </Typography>
+          <img
+          height="70"
+          width="70"
+          src={process.env.PUBLIC_URL + '/bryan_logo.png'}/>
           <Button color="inherit" className={classes.buttons}>Contact</Button>
         </Toolbar>
       </AppBar>
