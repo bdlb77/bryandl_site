@@ -37,17 +37,6 @@ class App extends Component {
     	<MuiThemeProvider theme={theme}>
         <CssBaseline />
 	      <div className="App">
-          <Helmet>
-            <title>BL | Bryan Leighton</title>
-            <meta name="og:title" content="Bryan Leighton | Full Stack Developer"/>
-            <meta name="og:description" content="Freelance Full Stack Developer Based in Berlin" />
-            <meta name="og:image" content="%PUBLIC_URL%/bryan_logo.png" />
-            <meta name="og:type" content="website"/>
-            <meta name="og:site_name" content="Bryan Leighton | Full Stack Developer"/>
-            <meta name="og:url" content="https://bryandl.com"/>
-            <link rel="canonical" href="http://bryandl.com/" />
-            <meta name="theme-color" content="#000000" />
-          </Helmet>
 	        <ButtonAppBar />
 	        <Content />
       	</div>
