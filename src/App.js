@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Helmet } from "react-helmet";
+
 import './App.scss';
 import Content from './components/content/Content';
 import ButtonAppBar from './components/navbar/Navbar';
@@ -30,10 +32,17 @@ const theme = createMuiTheme({
 
 class App extends Component {
   render() {
-    return (    
+    return (
     	<MuiThemeProvider theme={theme}>
         <CssBaseline />
 	      <div className="App">
+          <Helmet>
+            <title>BL | Bryan Leighton</title>
+            <meta name="og:description" content="Freelance Full Stack Developer Based in Berlin" />
+            <link rel="canonical" href="http://bryandl.com/" />
+            <meta name="theme-color" content="#000000" />
+            <meta name="og:image" content="/bryan_logo.png" />
+          </Helmet>
 	        <ButtonAppBar />
 	        <Content />
       	</div>
