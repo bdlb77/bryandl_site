@@ -6,10 +6,10 @@ import './ContentTitle.scss'
 		return (
 			<div>
 				<Typography variant="h2" color="textPrimary">
-          Full Stack Developer 
+          Full Stack Developer
         </Typography>
 				<Typography variant="h5" color="textSecondary">
-          Based in Berlin
+          Based in Tel Aviv
         </Typography>
 			</div>
 		);
